@@ -1,6 +1,6 @@
 # Amelia McNamara's Shiny Server
 
-> (Hackily) forked from [Dean Attali](http://deanattali.com), with MIT License. 
+> (Hackily) forked from [Dean Attali](https://github.com/daattali/shiny-server), with MIT License. 
 
 This repo contains the setup of [my Shiny server](http://45.55.32.181/shiny).  It is a git repo under `/srv/shiny-server` on my server.
 
