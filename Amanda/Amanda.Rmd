@@ -2,7 +2,8 @@
 title: "What are the chances my name is Amanda?"
 author: "Amelia McNamara"
 date: "January 10, 2017"
-output: md_document
+runtime: shiny
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -85,7 +86,7 @@ I'm not sure if doing this analysis has made me feel better about being called A
 Does this trend hold up with the name people are always calling you? Are you a Jacob that always gets called Jason? A Kirstin that gets called Kristen? (I'm guilty of that one.)
 
 
-```{r, eval=FALSE}
+```{r}
 data(babynames)
 babynames <- babynames %>%
   mutate(startswith = substring(name, 1,1)) %>%
