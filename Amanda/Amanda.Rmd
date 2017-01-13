@@ -1,7 +1,7 @@
 ---
 title: "What are the chances my name is Amanda?"
 author: "Amelia McNamara"
-date: "January 10, 2017"
+date: "January 13, 2017"
 runtime: shiny
 output: html_document
 ---
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.width=10)
 
 I get called Amanda a lot. This tends to drive me crazy, because I think my real name is much more interesting. But, I realized recently that given the prior probabilities, it's actually a very reasonable thing to call me. 
 
-To investigate this using data, I am using the `babynames` R package, which has data from the Social Security Administration. It includes all names that had at least 5 uses for a particular gender in a given year. Obviously, that leaves some people out, but actually this data includes most (documented) people in the United States. For more about this, see my data appendix. 
+To investigate this using data, I am using the `babynames` R package, which has data from the Social Security Administration. [If you want to follow along with my analysis, all the [code is on GitHub](https://github.com/AmeliaMN/shiny-server/blob/master/Amanda/Amanda.Rmd).] The `babynames` data includes all names that had at least 5 uses for a particular gender in a given year. Obviously, that leaves some people out, but actually this data includes most (documented) people in the United States. For more about this, see my data appendix. 
 
 The basic idea is to take my (approximate) age and see how likely it is that my name is Amanda. I look incredibly young, but given that I have a PhD and am a statistics professor, there's a lower bound on how young I could really be. Lets assume that people talking to me believe I was born between **1980-1989**, inclusive. So the question is, given that I was born then, **what are the chances my name is Amanda?**
 
