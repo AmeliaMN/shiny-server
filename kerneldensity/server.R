@@ -23,7 +23,7 @@ shinyServer(function(input, output) {
     plot(density(diamonds$price, kernel=input$kernel, adjust=input$adjust), 
          ylim=c(0, 0.0004), 
          xlim=c(0, 20000),
-         main="Kernel density of diamonds data")
+         main="Kernel density of prices from diamonds data")
     
   })
   
