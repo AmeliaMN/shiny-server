@@ -3,7 +3,7 @@ title: "Foundations for statistical inference - Sampling distributions"
 runtime: shiny
 output:
   html_document:
-    css: www/lab.css
+    css: lab.css
     highlight: pygments
     theme: cerulean
     toc: true
