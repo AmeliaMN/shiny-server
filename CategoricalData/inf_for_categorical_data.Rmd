@@ -3,7 +3,7 @@ title: "Inference for categorical data"
 runtime: shiny
 output:
   html_document:
-    css: www/lab.css
+    css: lab.css
     highlight: pygments
     theme: cerulean
     toc: true
